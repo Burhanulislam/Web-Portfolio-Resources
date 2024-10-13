@@ -39,6 +39,8 @@
 }
 .text-center{
     text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
 /* header */
 .header{
@@ -131,4 +133,65 @@ main section{
     background: rgb(255, 255, 255);
     padding: 30px;
     
+}
+.peragraph{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* resume section starts here */
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume hr{
+    margin: 10px;
+}
+/* resume font styles */
+.resume-heading{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+.resume-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(117, 117, 117);
+}
+.resume-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+/* footer styles starts here */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column {
+    width: 50%;
+}
+footer input[type=text], footer input[type=email]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
